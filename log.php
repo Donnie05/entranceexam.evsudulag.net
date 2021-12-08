@@ -24,11 +24,11 @@
                 header("location:dashboard.php");
             }
             else{
-                echo "<script> alert('Wrong username and password!');window.location='login.php' </script>";
+                echo "<script> alert('Wrong username and password!');window.location='index.php' </script>";
             }
         }
         else{
-            echo "<script> alert('Wrong username and password!');window.location='login.php' </script>";
+            echo "<script> alert('Wrong username and password!');window.location='index.php' </script>";
         }
     }
 
