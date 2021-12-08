@@ -1,0 +1,62 @@
+body{
+	margin: 0 auto;
+	background-image: url("evsu.png");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+    border-radius: 10%;
+}
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 5px;
+    border-color: maroon;
+    border-width: 3px;
+}
+.fas{
+    position: relative;
+    top: 12px;
+   
+    left: 0px;
+    font-size: 50px;
+    color: rgb(246, 250, 253);
+    background-color: maroon;
+}
+
+
+.btn-login{
+	padding: 15px 25px;
+    margin: 0 35px;
+    outline: none;
+	border: none;
+	background-color: maroon;
+    box-sizing: border-box;
+	color: #fff;
+    cursor: pointer;
+    border-radius: 10%;
+    letter-spacing: 2px ;
+}
+.btn-login:hover{
+    background-color: #d19d0e;
+	color: rgb(3, 3, 3);
+    background: linear-gradient()
+}

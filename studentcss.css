@@ -1,0 +1,114 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 30px 5%;
+    background-color: maroon;
+}
+.header h1{
+    color: rgb(248, 238, 238);;
+}
+.logo{
+    height: 90px;   
+}
+
+.drop{
+    float: left;
+    overflow: hidden;
+}
+.fas{
+    width: 10px;
+  cursor: pointer;
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  align-self: center;
+  border-radius: 50%;
+  
+  }
+  .fas:hover{
+    transform: scale(1.2);
+    background-color: rgb(228, 37, 37);
+  }
+
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .dropdown-content a:hover {
+    background:maroon;
+    color: rgb(248, 174, 14);
+  }
+  .show {
+    display: block;
+  }
+body{
+    position: relative;
+    margin: 0 auto;
+	background-image: url("evsu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.content{
+    border-collapse: collapse;
+
+  font-size: 0.9em;
+  min-width: 400px;
+  max-width:inherit;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ 
+  align-self: center;
+}
+.content thead tr {
+    background-color: maroon;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    border-top: 2px solid #f5faf9;
+   
+  }
+
+.content th,
+.content td {
+  padding: 1rem 1rem;
+}
+
+.content tbody tr{
+    background-color: #f3f3f3;
+    
+  }
+.content  tbody tr:last-of-type {
+    border-top: 2px solid #f5faf9;
+  }
+  
+.content tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
